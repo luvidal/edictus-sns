@@ -1,4 +1,4 @@
-# @jogi/sns — AWS SNS Signature Verification
+# @edictus/sns — AWS SNS Signature Verification
 
 Cryptographic verification of AWS SNS messages per the AWS SNS signature spec.
 Handles Notification, SubscriptionConfirmation, and UnsubscribeConfirmation message types.
@@ -55,7 +55,7 @@ Use `npx tsc --noEmit` for fast type checking. Run `npm run build` to verify bun
 
 Consumed by jogi via GitHub reference:
 ```json
-"@jogi/sns": "github:luvidal/jogi-sns#main"
+"@edictus/sns": "github:luvidal/edictus-sns#<40-char-sha>"
 ```
 
 Primary consumer: `~/GitHub/jogi` — see its `pages/api/` SNS webhook handler for usage context.
